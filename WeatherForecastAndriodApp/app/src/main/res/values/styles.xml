@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ApplicationResources.ButtonPrimary" parent="android:Widget.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="toolbar" parent="Theme.WeatherApp">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:background">@color/cafe_noir</item>
+        <item name="android:elevation">@dimen/toolbar_elevation</item>
+    </style>
+
+</resources>
